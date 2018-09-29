@@ -1,0 +1,11 @@
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository\bin\Debug\netcoreapp2.1\UserService.Repository.deps.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository\bin\Debug\netcoreapp2.1\UserService.Repository.runtimeconfig.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository\bin\Debug\netcoreapp2.1\UserService.Repository.runtimeconfig.dev.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository\bin\Debug\netcoreapp2.1\UserService.Repository.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository\bin\Debug\netcoreapp2.1\UserService.Repository.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository\obj\Debug\netcoreapp2.1\UserService.Repository.csprojAssemblyReference.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository\obj\Debug\netcoreapp2.1\UserService.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository\obj\Debug\netcoreapp2.1\UserService.Repository.AssemblyInfoInputs.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository\obj\Debug\netcoreapp2.1\UserService.Repository.AssemblyInfo.cs
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository\obj\Debug\netcoreapp2.1\UserService.Repository.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository\obj\Debug\netcoreapp2.1\UserService.Repository.pdb

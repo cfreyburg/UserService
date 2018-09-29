@@ -1,0 +1,14 @@
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\obj\Debug\netcoreapp2.1\UserService.API.csprojAssemblyReference.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\obj\Debug\netcoreapp2.1\UserService.API.csproj.CoreCompileInputs.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\obj\Debug\netcoreapp2.1\UserService.API.RazorAssemblyInfo.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\obj\Debug\netcoreapp2.1\UserService.API.RazorAssemblyInfo.cs
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\obj\Debug\netcoreapp2.1\UserService.API.AssemblyInfoInputs.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\obj\Debug\netcoreapp2.1\UserService.API.AssemblyInfo.cs
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\bin\Debug\netcoreapp2.1\UserService.API.deps.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\bin\Debug\netcoreapp2.1\UserService.API.runtimeconfig.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\bin\Debug\netcoreapp2.1\UserService.API.runtimeconfig.dev.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\bin\Debug\netcoreapp2.1\UserService.API.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\obj\Debug\netcoreapp2.1\UserService.API.RazorTargetAssemblyInfo.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\bin\Debug\netcoreapp2.1\UserService.API.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\obj\Debug\netcoreapp2.1\UserService.API.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\obj\Debug\netcoreapp2.1\UserService.API.pdb

@@ -1,0 +1,9 @@
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Domain\obj\Debug\netcoreapp2.1\UserService.Domain.csprojAssemblyReference.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Domain\obj\Debug\netcoreapp2.1\UserService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Domain\obj\Debug\netcoreapp2.1\UserService.Domain.AssemblyInfoInputs.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Domain\obj\Debug\netcoreapp2.1\UserService.Domain.AssemblyInfo.cs
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Domain\bin\Debug\netcoreapp2.1\UserService.Domain.deps.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Domain\bin\Debug\netcoreapp2.1\UserService.Domain.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Domain\bin\Debug\netcoreapp2.1\UserService.Domain.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Domain\obj\Debug\netcoreapp2.1\UserService.Domain.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Domain\obj\Debug\netcoreapp2.1\UserService.Domain.pdb
