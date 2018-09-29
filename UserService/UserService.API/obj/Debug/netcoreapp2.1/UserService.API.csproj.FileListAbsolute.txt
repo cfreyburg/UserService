@@ -12,3 +12,10 @@ C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\obj\Debu
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\bin\Debug\netcoreapp2.1\UserService.API.pdb
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\obj\Debug\netcoreapp2.1\UserService.API.dll
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\obj\Debug\netcoreapp2.1\UserService.API.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\bin\Debug\netcoreapp2.1\UserService.Domain.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\bin\Debug\netcoreapp2.1\UserService.Logic.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\bin\Debug\netcoreapp2.1\UserService.Repository.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\bin\Debug\netcoreapp2.1\UserService.Domain.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\bin\Debug\netcoreapp2.1\UserService.Logic.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\bin\Debug\netcoreapp2.1\UserService.Repository.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API\obj\Debug\netcoreapp2.1\UserService.API.csproj.CopyComplete

@@ -1,12 +1,19 @@
 ﻿using System;
+using UserService.Domain.Entities;
+using UserService.Domain.Interfaces;
 
 namespace UserService.Logic
 {
-    class UserLogic
+    public class UserLogic : IUserLogic
     {
-        static void Main(string[] args)
+        public UserLogic()
         {
-            Console.WriteLine("Hello World!");
+
+        }
+
+        public User Get()
+        {
+            return new User();
         }
     }
 }

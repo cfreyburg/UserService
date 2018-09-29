@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "UserService.Logic/1.0.0": {
+        "dependencies": {
+          "UserService.Domain": "1.0.0"
+        },
         "runtime": {
           "UserService.Logic.dll": {}
+        }
+      },
+      "UserService.Domain/1.0.0": {
+        "runtime": {
+          "UserService.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "UserService.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserService.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

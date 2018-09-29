@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.Logic", "UserService.Logic\UserService.Logic.csproj", "{E9340925-C315-4870-A674-C683EE6270DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService.Logic", "UserService.Logic\UserService.Logic.csproj", "{E9340925-C315-4870-A674-C683EE6270DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.Domain", "UserService.Domain\UserService.Domain.csproj", "{7E58308D-229B-4834-B384-E4B5D52CF584}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService.Domain", "UserService.Domain\UserService.Domain.csproj", "{7E58308D-229B-4834-B384-E4B5D52CF584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.Repository", "UserService.Repository\UserService.Repository.csproj", "{0738984F-B199-44E1-B938-EB3FA6A960B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService.Repository", "UserService.Repository\UserService.Repository.csproj", "{0738984F-B199-44E1-B938-EB3FA6A960B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.API", "UserService.API\UserService.API.csproj", "{609F6F0A-0EBC-4EE0-ACFC-763D78BDE7D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService.API", "UserService.API\UserService.API.csproj", "{609F6F0A-0EBC-4EE0-ACFC-763D78BDE7D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.API.Test", "UserService.API.Test\UserService.API.Test.csproj", "{31F3C660-30BD-4DCB-9C77-0BB94ACB866E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.Logic.Test", "UserService.Logic.Test\UserService.Logic.Test.csproj", "{48B18AEF-81D5-452E-BBDA-50DAE37381DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.Repository.Test", "UserService.Repository.Test\UserService.Repository.Test.csproj", "{AF7BB2CE-2946-4E43-A039-B26082558001}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{609F6F0A-0EBC-4EE0-ACFC-763D78BDE7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{609F6F0A-0EBC-4EE0-ACFC-763D78BDE7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{609F6F0A-0EBC-4EE0-ACFC-763D78BDE7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F3C660-30BD-4DCB-9C77-0BB94ACB866E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F3C660-30BD-4DCB-9C77-0BB94ACB866E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F3C660-30BD-4DCB-9C77-0BB94ACB866E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F3C660-30BD-4DCB-9C77-0BB94ACB866E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B18AEF-81D5-452E-BBDA-50DAE37381DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B18AEF-81D5-452E-BBDA-50DAE37381DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B18AEF-81D5-452E-BBDA-50DAE37381DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B18AEF-81D5-452E-BBDA-50DAE37381DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7BB2CE-2946-4E43-A039-B26082558001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7BB2CE-2946-4E43-A039-B26082558001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7BB2CE-2946-4E43-A039-B26082558001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7BB2CE-2946-4E43-A039-B26082558001}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

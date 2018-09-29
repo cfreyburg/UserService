@@ -1,0 +1,14 @@
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\bin\Debug\netcoreapp2.1\UserService.Logic.Test.deps.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\bin\Debug\netcoreapp2.1\UserService.Logic.Test.runtimeconfig.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\bin\Debug\netcoreapp2.1\UserService.Logic.Test.runtimeconfig.dev.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\bin\Debug\netcoreapp2.1\UserService.Logic.Test.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\bin\Debug\netcoreapp2.1\UserService.Logic.Test.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\obj\Debug\netcoreapp2.1\UserService.Logic.Test.csprojAssemblyReference.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\obj\Debug\netcoreapp2.1\UserService.Logic.Test.csproj.CoreCompileInputs.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\obj\Debug\netcoreapp2.1\UserService.Logic.Test.AssemblyInfoInputs.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\obj\Debug\netcoreapp2.1\UserService.Logic.Test.AssemblyInfo.cs
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\obj\Debug\netcoreapp2.1\UserService.Logic.Test.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\obj\Debug\netcoreapp2.1\UserService.Logic.Test.pdb

@@ -27,7 +27,10 @@
           "Microsoft.AspNetCore.All": "2.1.4",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "2.1.2",
-          "Microsoft.NETCore.App": "2.1.0"
+          "Microsoft.NETCore.App": "2.1.0",
+          "UserService.Domain": "1.0.0",
+          "UserService.Logic": "1.0.0",
+          "UserService.Repository": "1.0.0"
         },
         "runtime": {
           "UserService.API.dll": {}
@@ -353,6 +356,39 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.0"
+        }
+      },
+      "UserService.Domain/1.0.0": {
+        "runtime": {
+          "UserService.Domain.dll": {}
+        },
+        "compile": {
+          "UserService.Domain.dll": {}
+        }
+      },
+      "UserService.Logic/1.0.0": {
+        "dependencies": {
+          "UserService.Domain": "1.0.0"
+        },
+        "runtime": {
+          "UserService.Logic.dll": {}
+        },
+        "compile": {
+          "UserService.Logic.dll": {}
+        }
+      },
+      "UserService.Repository/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.1.3",
+          "Microsoft.EntityFrameworkCore.Relational": "2.1.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.3",
+          "UserService.Domain": "1.0.0"
+        },
+        "runtime": {
+          "UserService.Repository.dll": {}
+        },
+        "compile": {
+          "UserService.Repository.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -3914,6 +3950,21 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "UserService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserService.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserService.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Libuv/1.10.0": {
       "type": "package",

@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "UserService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/UserService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserService.Domain.dll": {}
+        }
       }
     }
   },
@@ -673,11 +683,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "UserService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../UserService.Domain/UserService.Domain.csproj",
+      "msbuildProject": "../UserService.Domain/UserService.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "UserService.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -709,7 +725,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Xto\\Documents\\projetos\\UserService\\UserService\\UserService.Domain\\UserService.Domain.csproj": {
+              "projectPath": "C:\\Users\\Xto\\Documents\\projetos\\UserService\\UserService\\UserService.Domain\\UserService.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

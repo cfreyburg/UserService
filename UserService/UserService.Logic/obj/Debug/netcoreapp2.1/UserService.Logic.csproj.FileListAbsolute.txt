@@ -1,6 +1,4 @@
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic\bin\Debug\netcoreapp2.1\UserService.Logic.deps.json
-C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic\bin\Debug\netcoreapp2.1\UserService.Logic.runtimeconfig.json
-C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic\bin\Debug\netcoreapp2.1\UserService.Logic.runtimeconfig.dev.json
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic\bin\Debug\netcoreapp2.1\UserService.Logic.dll
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic\bin\Debug\netcoreapp2.1\UserService.Logic.pdb
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic\obj\Debug\netcoreapp2.1\UserService.Logic.csprojAssemblyReference.cache
@@ -9,3 +7,6 @@ C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic\obj\De
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic\obj\Debug\netcoreapp2.1\UserService.Logic.AssemblyInfo.cs
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic\obj\Debug\netcoreapp2.1\UserService.Logic.dll
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic\obj\Debug\netcoreapp2.1\UserService.Logic.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic\bin\Debug\netcoreapp2.1\UserService.Domain.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic\bin\Debug\netcoreapp2.1\UserService.Domain.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic\obj\Debug\netcoreapp2.1\UserService.Logic.csproj.CopyComplete

@@ -1,0 +1,14 @@
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\UserService.API.Test.deps.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\UserService.API.Test.runtimeconfig.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\UserService.API.Test.runtimeconfig.dev.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\UserService.API.Test.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\UserService.API.Test.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\obj\Debug\netcoreapp2.1\UserService.API.Test.csprojAssemblyReference.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\obj\Debug\netcoreapp2.1\UserService.API.Test.csproj.CoreCompileInputs.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\obj\Debug\netcoreapp2.1\UserService.API.Test.AssemblyInfoInputs.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\obj\Debug\netcoreapp2.1\UserService.API.Test.AssemblyInfo.cs
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\obj\Debug\netcoreapp2.1\UserService.API.Test.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\obj\Debug\netcoreapp2.1\UserService.API.Test.pdb

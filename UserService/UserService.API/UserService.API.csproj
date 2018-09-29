@@ -14,4 +14,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UserService.Domain\UserService.Domain.csproj" />
+    <ProjectReference Include="..\UserService.Logic\UserService.Logic.csproj" />
+    <ProjectReference Include="..\UserService.Repository\UserService.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

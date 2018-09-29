@@ -1,0 +1,14 @@
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\bin\Debug\netcoreapp2.1\UserService.Repository.Test.deps.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\bin\Debug\netcoreapp2.1\UserService.Repository.Test.runtimeconfig.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\bin\Debug\netcoreapp2.1\UserService.Repository.Test.runtimeconfig.dev.json
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\bin\Debug\netcoreapp2.1\UserService.Repository.Test.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\bin\Debug\netcoreapp2.1\UserService.Repository.Test.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\obj\Debug\netcoreapp2.1\UserService.Repository.Test.csprojAssemblyReference.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\obj\Debug\netcoreapp2.1\UserService.Repository.Test.csproj.CoreCompileInputs.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\obj\Debug\netcoreapp2.1\UserService.Repository.Test.AssemblyInfoInputs.cache
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\obj\Debug\netcoreapp2.1\UserService.Repository.Test.AssemblyInfo.cs
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\obj\Debug\netcoreapp2.1\UserService.Repository.Test.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\obj\Debug\netcoreapp2.1\UserService.Repository.Test.pdb
