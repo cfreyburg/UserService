@@ -9,9 +9,10 @@ namespace UserService.Domain.Interfaces
     public interface IUserRepository
     {
         IQueryable<User> Get();
-        void Add(User user);
+        User Add(User user);
         IQueryable<User> Get(int id);
         void Delete(User user);
         void Update(User user);
+        void SaveChanges();
     }
 }

@@ -12,9 +12,10 @@ namespace UserService.Repository
             _context = context;
         }
 
-        public void Add(User user)
+        public User Add(User user)
         {
             _context.Add(user);
+            return user;
         }
 
         public void Delete(User user)
@@ -32,6 +33,11 @@ namespace UserService.Repository
             return _context.Users
                 .Where(q => q.Id == id)
                 .Select(q => q);
+        }
+
+        public void SaveChanges()
+        {
+            _context.SaveChanges();
         }
 
         public void Update(User user)
