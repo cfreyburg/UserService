@@ -2,6 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System.Collections.Generic;
 using System.Linq;
+using UserService.Domain.DTO;
 using UserService.Domain.Entities;
 using UserService.Domain.Interfaces;
 
@@ -11,18 +12,20 @@ namespace UserService.Logic.Test
     public class UserLogicTest
     {
         private readonly Mock<IUserRepository> _repo;
+        private readonly Mock<IHashHelper> _helper;
         private readonly IUserLogic _logic;
         public UserLogicTest()
         {
             _repo = new Mock<IUserRepository>();
-            _logic = new UserLogic(_repo.Object);
+            _helper = new Mock<IHashHelper>();
+            _logic = new UserLogic(_repo.Object, _helper.Object);
         }
 
 
         [TestMethod]
         public void logic_should_return_all_users()
         {
-            var expected = new List<User>();
+            var expected = new List<UserDTO>();
             _repo.Setup(q => q.Get()).Returns(expected.AsQueryable());
 
             var actual =_logic.Get();
@@ -34,8 +37,8 @@ namespace UserService.Logic.Test
         public void logic_should_return_a_user()
         {
             var id = 1;
-            var user = new User { Id = 1, Name = "test"};
-            var list = new List<User> { user };
+            var user = new UserDTO { Id = 1, Name = "test"};
+            var list = new List<UserDTO> { user };
             _repo.Setup(q => q.Get(id)).Returns(list.AsQueryable());
 
             var actual = _logic.Get(id);

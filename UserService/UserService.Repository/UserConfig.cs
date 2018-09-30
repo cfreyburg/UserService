@@ -12,8 +12,7 @@ namespace UserService.Repository
                 .HasMaxLength(25);
             builder.Property(q => q.Name)
                 .HasMaxLength(25);
-            builder.Property(q => q.Password)
-                .HasMaxLength(25);
+            builder.Ignore(q => q.Password);
         }
     }
 }

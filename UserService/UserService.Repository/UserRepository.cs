@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using UserService.Domain.DTO;
 using UserService.Domain.Entities;
 using UserService.Domain.Interfaces;
 
@@ -23,15 +24,22 @@ namespace UserService.Repository
             _context.Remove(user);
         }
 
-        public IQueryable<User> Get()
+        public IQueryable<UserDTO> Get()
         {
-            return _context.Users.Select(q => q);
+            return _context.Users.Select(UserMapper.ToDTO);
         }
 
-        public IQueryable<User> Get(int id)
+        public IQueryable<UserDTO> Get(int id)
         {
             return _context.Users
                 .Where(q => q.Id == id)
+                .Select(UserMapper.ToDTO);
+        }
+
+        public IQueryable<User> Get(string email)
+        {
+            return _context.Users
+                .Where(q => q.Email == email)
                 .Select(q => q);
         }
 

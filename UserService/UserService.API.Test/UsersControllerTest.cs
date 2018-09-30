@@ -1,7 +1,10 @@
+using Microsoft.Extensions.Options;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System.Collections.Generic;
 using UserService.API.Controllers;
+using UserService.API.Helpers;
+using UserService.Domain.DTO;
 using UserService.Domain.Entities;
 using UserService.Domain.Interfaces;
 
@@ -11,18 +14,20 @@ namespace UserService.API.Test
     public class UsersControllerTest
     {
         private readonly Mock<IUserLogic> _logic;
+        private readonly Mock<IOptions<AppSettings>> _helper;
         private readonly UsersController _controller;
 
         public UsersControllerTest()
         {
             _logic = new Mock<IUserLogic>();
-            _controller = new UsersController(_logic.Object);
+            _helper = new Mock<IOptions<AppSettings>>();
+            _controller = new UsersController(_logic.Object, _helper.Object);
         }
 
         [TestMethod]
         public void controller_should_bring_all_users()
         {
-            var expected = new List<User>();
+            var expected = new List<UserDTO>();
             _logic.Setup(q => q.Get()).Returns(expected);
 
             var actual = _controller.Get();
@@ -34,7 +39,7 @@ namespace UserService.API.Test
         public void controller_should_bring_a_user()
         {
             var id = 1;
-            var expected = new User { Id = id, Name = "test" };
+            var expected = new UserDTO { Id = id, Name = "test" };
             _logic.Setup(q => q.Get(id)).Returns(expected);
 
             var actual = _controller.Get(id);
