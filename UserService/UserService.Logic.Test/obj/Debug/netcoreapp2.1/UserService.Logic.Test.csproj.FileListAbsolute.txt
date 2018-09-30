@@ -12,3 +12,8 @@ C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\o
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\obj\Debug\netcoreapp2.1\UserService.Logic.Test.AssemblyInfo.cs
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\obj\Debug\netcoreapp2.1\UserService.Logic.Test.dll
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\obj\Debug\netcoreapp2.1\UserService.Logic.Test.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\bin\Debug\netcoreapp2.1\UserService.Domain.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\bin\Debug\netcoreapp2.1\UserService.Logic.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\bin\Debug\netcoreapp2.1\UserService.Domain.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\bin\Debug\netcoreapp2.1\UserService.Logic.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Logic.Test\obj\Debug\netcoreapp2.1\UserService.Logic.Test.csproj.CopyComplete

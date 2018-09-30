@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using UserService.Domain.Entities;
 
 namespace UserService.Domain.Interfaces
 {
-    public interface IUserLogic
+    public interface IUserRepository
     {
-        IEnumerable<User> Get();
+        IQueryable<User> Get();
     }
 }

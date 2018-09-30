@@ -1,10 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Linq;
+using UserService.Domain.Entities;
+using UserService.Domain.Interfaces;
 
 namespace UserService.Repository
 {
-    class UserRepository
+    public class UserRepository : IUserRepository
     {
+        private readonly UserContext _context;
+        public UserRepository(UserContext context)
+        {
+            _context = context;
+        }
+
+        public IQueryable<User> Get()
+        {
+            return _context.Users.Select(q => q);
+        }
     }
 }

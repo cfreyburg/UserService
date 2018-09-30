@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using UserService.Domain.Entities;
+using UserService.Domain.Interfaces;
 
 namespace UserService.Repository
 {
@@ -15,6 +16,6 @@ namespace UserService.Repository
             modelBuilder.ApplyConfiguration(new UserConfig());
         }
 
-        DbSet<User> Users { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

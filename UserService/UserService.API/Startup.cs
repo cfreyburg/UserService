@@ -15,6 +15,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
+using UserService.Logic;
+using UserService.Domain.Interfaces;
+using UserService.Repository;
 
 namespace UserService.API
 {
@@ -50,6 +53,10 @@ namespace UserService.API
 
             var connectionString = Startup.Configuration["ConnectionStrings:UserServiceDB"];
             services.AddDbContext<UserService.Repository.UserContext>(o => o.UseSqlServer(connectionString));
+
+            services.AddTransient<IUserLogic, UserLogic>();
+            services.AddTransient<IUserRepository, UserRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

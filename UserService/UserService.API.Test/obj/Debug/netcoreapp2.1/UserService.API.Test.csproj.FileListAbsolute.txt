@@ -12,3 +12,12 @@ C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\obj
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\obj\Debug\netcoreapp2.1\UserService.API.Test.AssemblyInfo.cs
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\obj\Debug\netcoreapp2.1\UserService.API.Test.dll
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\obj\Debug\netcoreapp2.1\UserService.API.Test.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\UserService.API.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\UserService.Domain.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\UserService.Logic.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\UserService.Repository.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\UserService.API.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\UserService.Domain.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\UserService.Logic.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\bin\Debug\netcoreapp2.1\UserService.Repository.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.API.Test\obj\Debug\netcoreapp2.1\UserService.API.Test.csproj.CopyComplete

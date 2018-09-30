@@ -12,3 +12,8 @@ C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.T
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\obj\Debug\netcoreapp2.1\UserService.Repository.Test.AssemblyInfo.cs
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\obj\Debug\netcoreapp2.1\UserService.Repository.Test.dll
 C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\obj\Debug\netcoreapp2.1\UserService.Repository.Test.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\bin\Debug\netcoreapp2.1\UserService.Domain.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\bin\Debug\netcoreapp2.1\UserService.Repository.dll
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\bin\Debug\netcoreapp2.1\UserService.Domain.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\bin\Debug\netcoreapp2.1\UserService.Repository.pdb
+C:\Users\Xto\Documents\projetos\UserService\UserService\UserService.Repository.Test\obj\Debug\netcoreapp2.1\UserService.Repository.Test.csproj.CopyComplete

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using UserService.Domain.Entities;
+using UserService.Domain.Interfaces;
 
 namespace UserService.API.Controllers
 {
@@ -10,11 +12,17 @@ namespace UserService.API.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
+        private readonly IUserLogic _logic;
+
+        public UsersController(IUserLogic logic)
+        {
+            _logic = logic;
+        }
         // GET api/Users
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public IEnumerable<User> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _logic.Get();
         }
 
         // GET api/Users/5
