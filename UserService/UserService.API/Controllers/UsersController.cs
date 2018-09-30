@@ -27,27 +27,31 @@ namespace UserService.API.Controllers
 
         // GET api/Users/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public User Get(int id)
         {
-            return "value";
+            return _logic.Get(id);
         }
 
         // POST api/Users
         [HttpPost]
-        public void Post([FromBody] string value)
+        public User Post(User user)
         {
+            return _logic.Add(user);
         }
 
         // PUT api/Users/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public void Put(int id, User user)
         {
+            user.Id = id;
+            _logic.Update(user);
         }
 
         // DELETE api/Users/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete]
+        public void Delete(User user)
         {
+            _logic.Delete(user);
         }
     }
 }
