@@ -12,9 +12,31 @@ namespace UserService.Repository
             _context = context;
         }
 
+        public void Add(User user)
+        {
+            _context.Add(user);
+        }
+
+        public void Delete(User user)
+        {
+            _context.Remove(user);
+        }
+
         public IQueryable<User> Get()
         {
             return _context.Users.Select(q => q);
+        }
+
+        public IQueryable<User> Get(int id)
+        {
+            return _context.Users
+                .Where(q => q.Id == id)
+                .Select(q => q);
+        }
+
+        public void Update(User user)
+        {
+            _context.Update(user);
         }
     }
 }

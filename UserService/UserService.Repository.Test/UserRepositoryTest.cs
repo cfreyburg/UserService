@@ -31,5 +31,52 @@ namespace UserService.Repository.Test
             
             Assert.AreEqual(actual.Count(), 2);
         }
+
+        [TestMethod]
+        public void repo_should_return_one_user()
+        {
+            var id = 1;
+            var actual = _repo.Get(id);
+
+            Assert.AreEqual(actual.Count(), 1);
+            Assert.AreEqual(actual.First().Id, 1);
+            Assert.AreEqual(actual.First().Name, "test");
+        }
+
+        [TestMethod]
+        public void repo_should_add_users()
+        {
+            var user = new User { Name = "test3" };
+            _repo.Add(user);
+            _context.SaveChanges();
+
+            Assert.AreEqual(_context.Users.Count(), 3);
+        }
+
+        [TestMethod]
+        public void repo_should_delete_user()
+        {
+            var user = _context.Users.Where(q => q.Id == 2).First();
+            _repo.Delete(user);
+            _context.SaveChanges();
+
+            var expected = _context.Users.Where(q => q.Id == 2).FirstOrDefault();
+
+            Assert.AreEqual(expected, null);
+        }
+
+        [TestMethod]
+        public void repo_should_update_user()
+        {
+            var expected = "test1";
+            var user = _context.Users.Where(q => q.Id == 1).First();
+            user.Name = expected;
+            _repo.Update(user);
+            _context.SaveChanges();
+
+            var actual = _context.Users.Where(q => q.Id == 1).First();
+
+            Assert.AreEqual(actual.Name, expected);
+        }
     }
 }
